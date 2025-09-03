@@ -11,15 +11,15 @@ Content-Type: application/json
 }
 
 ### Update Todo
-PUT http://localhost:3000/api/todos/3
+PUT http://localhost:3000/api/todos/2
 Content-Type: application/json
 
 {
-	"completed": false
+	"completed": true
 }
 
 ### Delete Todo
-DELETE http://localhost:3000/api/todos/2
+DELETE http://localhost:3000/api/todos/1
 
 ### Get Todo
 GET http://localhost:3000/api/todos/2

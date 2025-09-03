@@ -1,0 +1,25 @@
+### List Todos
+GET http://localhost:3000/api/todos
+
+### Create Todo
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+	"title": "TODO 1",
+	"description": "This is the first todo item"
+}
+
+### Update Todo
+PUT http://localhost:3000/api/todos/3
+Content-Type: application/json
+
+{
+	"completed": false
+}
+
+### Delete Todo
+DELETE http://localhost:3000/api/todos/2
+
+### Get Todo
+GET http://localhost:3000/api/todos/2

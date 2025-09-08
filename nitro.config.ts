@@ -4,5 +4,6 @@ export default defineNitroConfig({
 	srcDir: 'server',
 	runtimeConfig: {
 		databaseUrl: '',
+		apiUrl: '',
 	},
 })
